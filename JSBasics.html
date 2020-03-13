@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>data</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>
+            the current adte and time is 
+         </h1>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">cick to get current time and date</button>
+        <h2 id="demo" style="background-color: blue;">
+  
+        </h2>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+document.write('<h1>hello world</h1>')
+document.write('<h6>hello again</h6>')
+var a= 50;
+var b= 30;
+var res = a+b;
+document.write(res)
+document.write('<br>')
+
+
+var num =30;
+if(num%2==0){
+    document.write('\n number is even')
+    document.write('<br>')
+    if(a>0 && a%2==0){
+    document.write('\n the number is even and positive')
+    document.write('<br>')
+}
+   
+}
+else{
+    document.write('\n number is oddd')
+    document.write('<br>')
+}
+function addNumber(a,b){
+    var n1=90;
+    var n2 =8000;
+    res = n1 + n2;
+    res2 =a +'' +" " +b;
+    return res2;
+    // document.write('result is==='+res2)
+    // document.write('<br>')
+}
+ output = addNumber('Namrata','Rane');
+   document.write('output is-======',output)
+   document.write('<br>')
+   document.write('type  of fucntion is===='+typeof(output))
+
+   var cars =['breza','maruti','scorpio','swift'];
+   cars.push("BMW");
+   document.write(cars)
+  
+   for(var i =0; cars.length;i++){
+       document.write('cars are ==='+cars[i]);
+       document.write('<br>');
+       
+   }
+
+</script>
